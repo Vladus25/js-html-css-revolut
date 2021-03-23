@@ -1,0 +1,54 @@
+/* Regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+li{
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.position-relative{
+  position: relative;
+  margin: 0 25px;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  background-color: rgb(210, 210, 210);
+
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 20px 0;
+  text-decoration: none;
+  display: block;
+}
+
+.inline{
+  display: flex;
+  margin-top: 20px;
+}
+
+
+.show {
+  display: block;
+}
