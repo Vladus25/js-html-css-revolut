@@ -5,6 +5,11 @@
   box-sizing: 0;
 }
 
+body{
+  height: 100vh;
+}
+
+
 a{
   text-decoration: none;
   color: black;
@@ -15,7 +20,6 @@ ul li{
 }
 
 li{
-  margin: 0 15px;
   font-size: 20px;
 }
 
@@ -24,31 +28,57 @@ li{
   justify-content: space-around;
 }
 
-.position-relative{
-  position: relative;
-  margin: 0 25px;
-}
-
-.dropdown-content {
-  position: absolute;
-  display: none;
-  background-color: rgb(210, 210, 210);
-
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 20px 0;
-  text-decoration: none;
-  display: block;
+.margin-fix{
+  margin: 0 40px;
 }
 
 .inline{
   display: flex;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
+.position-relative{
+  position: relative;
+  margin: 0 40px;
+}
 
-.show {
+.dropdown-large{
+  display: none;
+  position: absolute;
+  top: 35px;
+  right: -325px;
+  color: rgb(102, 102, 102);
+  width: 650px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dropdown-large li{
+  margin: 20px 15px ;
+}
+
+.features{
+  display: flex;
+}
+
+.title{
+  color: black;
+}
+
+.dropdown{
+  position: absolute;
+  display: none;
+  top: 35px;
+  left: -25px;
+  color: rgb(102, 102, 102);
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.05);
+
+}
+
+.dropdown li{
+  margin: 20px 10px;
+}
+
+.show{
   display: block;
 }
