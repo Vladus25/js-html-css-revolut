@@ -2,8 +2,8 @@
 
 function dropDownOn() {
 
-  var hide = $("li");
-  hide.hover(function(){
+  var activeDrop= $("li");
+  activeDrop.hover(function(){
 
     $(".dropOn").removeClass("show");
     $(this).find(".dropOn").addClass("show");
